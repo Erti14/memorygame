@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-board{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.card{
+    width: 135px;
+    height: 130px;
+    background-image: url(images/backcard.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#player1, #player2{
+    font-size: 20px;
+    margin-top: 0;
+    padding-left: 18.5px;
+}
+
+.first, .second{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first{
+    margin-right: 10%;
+}
+
+
+
+.second{
+    margin-left: 10%;
+}
+
+
